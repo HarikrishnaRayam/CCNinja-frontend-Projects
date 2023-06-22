@@ -1,0 +1,56 @@
+body {
+      background-color: #f3f3f3;
+    }
+
+    .container {
+      margin-top: 50px;
+      background-color: #bde0fe;
+      border-radius: 5px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .form-group {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    label {
+      margin-right: 10px;
+    }
+
+    #set-alarm-btn,
+    .delete-btn {
+      margin-left: 10px;
+    }
+
+    .alarms-list {
+      margin-top: 20px;
+    }
+
+    .alarm-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .delete-btn {
+      padding: 5px 10px;
+      background-color: #dc3545;
+      color: #ffffff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
